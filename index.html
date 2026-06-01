@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="wp-content/themes/albatros/public/images/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="wp-content/themes/albatros/public/images/favicon/favicon.svg" />
+	<link rel="shortcut icon" href="wp-content/themes/albatros/public/images/favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="wp-content/themes/albatros/public/images/favicon/apple-touch-icon.png" />
+	<link rel="manifest" href="wp-content/themes/albatros/public/images/favicon/site.webmanifest" />
+
+	<meta property="og:title" content="demo" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="wp-content/themes/albatros/public/images/logotop.jpg" />
+
+	<link rel='stylesheet' id='swiper-bundle-css' href='wp-content/themes/albatros/public/css/swiper-bundle.min.css' media='all' />
+	<link rel='stylesheet' id='fancybox-css' href='wp-content/themes/albatros/public/css/jquery.fancybox.min.css' media='all' />
+	<link rel='stylesheet' id='magnific-css' href='wp-content/themes/albatros/public/css/magnific-popup.min.css' media='all' />
+	<link rel='stylesheet' id='main-css' href='wp-content/themes/albatros/public/css/main.css' media='all' />
+</head>
+
+<body data-rsssl=1 class="home blog wp-theme-albatros">
+	<header id="header" class="header">
+		<div class="grid_container header_wrapper">
+			<a href="/" class="header_logo">
+				<img src="wp-content/themes/albatros/public/images/logotip.svg" alt="demo">
+			</a>
+			<nav class="header_nav">
+				<ul id="menu-glavnoe-menyu" class="menu_list">
+					<li class="menu-item menu-item-type-taxonomy menu-item-object-category_ekskursii menu-item-has-children menu-item-1013">
+						<a href="#">Экскурсии</a>
+						<span class='sub_menu_btn'></span>
+						<ul class='sub-menu'>
+							<li class="menu-item menu-item-type-taxonomy menu-item-object-category_ekskursii menu-item-1015"><a href="#">Марса-Алам</a></li>
+							<li class="menu-item menu-item-type-taxonomy menu-item-object-category_ekskursii menu-item-1017"><a href="#">Шарм-эль-Шейх</a></li>
+							<li class="menu-item menu-item-type-taxonomy menu-item-object-category_ekskursii menu-item-1016"><a href="#">Хургада</a></li>
+						</ul>
+					</li>
+					<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1012"><a href="#">Статьи</a></li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1014"><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header_right" data-da=".header_nav, 1200, 5">
+				<select class="country_select header_lang">
+					<option value="ru" data-mask="+7(999)999-99-99" data-placeholder="Телефон*" selected>🇷🇺 RU</option>
+					<option value="en" data-mask="+1(999)999-9999" data-placeholder="Phone*">🇬🇧 EN</option>
+					<option value="ar" data-mask="+20(999)999-9999" data-placeholder="هاتف*">🇪🇬 AR</option>
+				</select>
+				<a href="tel:+201145948077" class="header_phone">+201145948077</a>
+				<a href="mailto:albatrosegypt6@gmail.com" class="header_mail">albatrosegypt6@gmail.com</a>
+				<span class="modal_open">
+					<a href="#modal_consultations" class="site_btn" data-effect="mfp-zoom-in">Связаться с нами</a>
+				</span>
+			</div>
+			<ul class="humb">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</header>
+
+	<main>
+		<div class="banner m_bottom">
+			<div class="swiper banner_slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/12/14840252_original.jpg" alt="" loading="lazy">
+					</div>
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/07/slide2.jpg" alt="" loading="lazy">
+					</div>
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/12/item_478.jpg" alt="" loading="lazy">
+					</div>
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-23-at-14.25.25.jpeg" alt="" loading="lazy">
+					</div>
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-23-at-14.25.23.jpeg" alt="" loading="lazy">
+					</div>
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-25-at-17.56.26-1.jpeg" alt="" loading="lazy">
+					</div>
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-25-at-17.35.41-1.jpeg" alt="" loading="lazy">
+					</div>
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-25-at-16.42.02-2.jpeg" alt="" loading="lazy">
+					</div>
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-25-at-16.42.02.jpeg" alt="" loading="lazy">
+					</div>
+					<div class="swiper-slide banner_slide">
+						<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-25-at-16.13.04-1.jpeg" alt="" loading="lazy">
+					</div>
+				</div>
+			</div>
+			<div class="banner_wrapper grid_container">
+				<h1 class="banner_title" data-heading="Найти следующее место для посещения">Найти следующее место для посещения</h1>
+				<div class="banner_top_link">
+					<a href="#" class="site_btn">Хургада</a>
+					<a href="#" class="site_btn">Шарм-эль-Шейх</a>
+					<a href="#" class="site_btn">Марса-Алам</a>
+				</div>
+				<div class="banner_trigger_wrapper">
+					<div id="bannerTrigger" class="banner_trigger">
+						<div class="banner_trigger_item">
+							<div class="trigger_icon">
+								<img src="wp-content/uploads/2025/07/trigger_icon.svg" alt="">
+							</div>
+							<span class="trigger_title">Работаем 24/7</span>
+						</div>
+						<div class="banner_trigger_item">
+							<div class="trigger_icon">
+								<img src="wp-content/uploads/2025/07/trigger_icon2.svg" alt="">
+							</div>
+							<span class="trigger_title">Опытные русскоговорящие гиды</span>
+						</div>
+						<div class="banner_trigger_item">
+							<div class="trigger_icon">
+								<img src="wp-content/uploads/2025/07/trigger_icon3.svg" alt="">
+							</div>
+							<span class="trigger_title">Оплата в день экскурсии</span>
+						</div>
+						<div class="banner_trigger_item">
+							<div class="trigger_icon">
+								<img src="wp-content/uploads/2025/07/trigger_icon.svg" alt="">
+							</div>
+							<span class="trigger_title">Работаем с 2017 года</span>
+						</div>
+						<div class="banner_trigger_item">
+							<div class="trigger_icon">
+								<img src="wp-content/uploads/2025/07/trigger_icon4.svg" alt="">
+							</div>
+							<span class="trigger_title">Действует туристическая страховка</span>
+						</div>
+						<div class="banner_trigger_item">
+							<div class="trigger_icon">
+								<img src="wp-content/uploads/2025/07/trigger_icon5.svg" alt="">
+							</div>
+							<span class="trigger_title">Отличное соотношение цены и качества</span>
+						</div>
+						<div class="banner_trigger_item">
+							<div class="trigger_icon">
+								<img src="wp-content/uploads/2025/07/trigger_icon6.svg" alt="">
+							</div>
+							<span class="trigger_title">Трансфер включен</span>
+						</div>
+						<div class="banner_trigger_item">
+							<div class="trigger_icon">
+								<img src="wp-content/uploads/2025/07/trigger_icon7.svg" alt="">
+							</div>
+							<span class="trigger_title">Более 100 отзывов</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="popular_excursions m_bottom">
+			<div class="grid_container">
+				<h2 class="index_title">Популярные экскурсии</h2>
+				<div class="tabs_nav_box popular_excursions_btn">
+					<a href="#!" data-tab="tab_1" class="excursions_nav_tab active">Шарм-эль-Шейх</a>
+					<a href="#!" data-tab="tab_2" class="excursions_nav_tab">Хургада</a>
+					<a href="#" class="more_btn">посмотреть больше</a>
+				</div>
+
+				<div class="tabs_content">
+					<div id="tab_1" class="excursions_tab active">
+						<div class="excursions_wrapper">
+							<a href="#" class="excursions_item">
+								<div class="excursions_item_info">
+									<span class="excursions_item_label">Кто ищет комфорта</span>
+									<h3 class="excursions_item_title">Луксор из Шарма (на самолёте)</h3>
+									<div class="excursions_item_bottom">
+										<span class="excursions_item_time">05:00 - 21:00</span>
+										<span class="excursions_item_date">Ср</span>
+										<div class="excursions_item_price">
+											<span class="excursions_item_num">245$</span>
+										</div>
+									</div>
+								</div>
+								<div class="excursions_item_photo">
+									<div class="excursions__photo">
+										<img src="wp-content/uploads/2025/07/whatsapp-image-2025-10-23-at-15.48.49_3665bef0.jpg" alt="Луксор из Шарма (на самолёте)" loading="lazy">
+									</div>
+									<span class="site_btn_transparent">подробнее</span>
+								</div>
+							</a>
+							<a href="#" class="excursions_item">
+								<div class="excursions_item_info">
+									<span class="excursions_item_label">Популярное</span>
+									<h3 class="excursions_item_title">Гора Моисея и монастырь Св. Екатерины В Шарм Эль шейхе</h3>
+									<div class="excursions_item_bottom">
+										<span class="excursions_item_time">20:00 - 13:00</span>
+										<span class="excursions_item_date">Ср, Пт, Вс</span>
+										<div class="excursions_item_price">
+											<span class="excursions_item_num">30$</span>
+										</div>
+									</div>
+								</div>
+								<div class="excursions_item_photo">
+									<div class="excursions__photo">
+										<img src="wp-content/uploads/2025/07/whatsapp-image-2025-10-23-at-11.12.30_5a927d51.jpg" alt="Гора Моисея и монастырь Св. Екатерины" loading="lazy">
+									</div>
+									<span class="site_btn_transparent">подробнее</span>
+								</div>
+							</a>
+							<a href="#" class="excursions_item">
+								<div class="excursions_item_info">
+									<span class="excursions_item_label">Новинка</span>
+									<h3 class="excursions_item_title">Старый Каир и Пирамиды (мини-группа, комфорт) Из Шарма</h3>
+									<div class="excursions_item_bottom">
+										<span class="excursions_item_time">00:00 - 22:30</span>
+										<span class="excursions_item_date">Ср, Пт, Вс</span>
+										<div class="excursions_item_price">
+											<span class="excursions_item_num">90$</span>
+										</div>
+									</div>
+								</div>
+								<div class="excursions_item_photo">
+									<div class="excursions__photo">
+										<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-26-at-10.46.43-1.jpeg" alt="Старый Каир и Пирамиды" loading="lazy">
+									</div>
+									<span class="site_btn_transparent">подробнее</span>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div id="tab_2" class="excursions_tab">
+						<div class="excursions_wrapper">
+							<a href="#" class="excursions_item">
+								<div class="excursions_item_info">
+									<span class="excursions_item_label">Новинка</span>
+									<h3 class="excursions_item_title">Старый Каир и Пирамиды (мини-группа, комфорт) Из Шарма</h3>
+									<div class="excursions_item_bottom">
+										<span class="excursions_item_time">00:00 - 22:30</span>
+										<span class="excursions_item_date">Ср, Пт, Вс</span>
+										<div class="excursions_item_price">
+											<span class="excursions_item_num">90$</span>
+										</div>
+									</div>
+								</div>
+								<div class="excursions_item_photo">
+									<div class="excursions__photo">
+										<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-26-at-10.46.43-1.jpeg" alt="Старый Каир и Пирамиды" loading="lazy">
+									</div>
+									<span class="site_btn_transparent">подробнее</span>
+								</div>
+							</a>
+							<a href="#" class="excursions_item">
+								<div class="excursions_item_info">
+									<span class="excursions_item_label">Популярное</span>
+									<h3 class="excursions_item_title">Каир и Александрия из Хургады (автобус) 2 дня</h3>
+									<div class="excursions_item_bottom">
+										<span class="excursions_item_time">2 дня</span>
+										<span class="excursions_item_date">Вт</span>
+										<div class="excursions_item_price">
+											<span class="excursions_item_num">140$</span>
+										</div>
+									</div>
+								</div>
+								<div class="excursions_item_photo">
+									<div class="excursions__photo">
+										<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-23-at-17.17.34.jpeg" alt="Каир и Александрия" loading="lazy">
+									</div>
+									<span class="site_btn_transparent">подробнее</span>
+								</div>
+							</a>
+							<a href="#" class="excursions_item">
+								<div class="excursions_item_info">
+									<span class="excursions_item_label">VIP-клиенты</span>
+									<h3 class="excursions_item_title">Каир индивидуально из Хургады</h3>
+									<div class="excursions_item_bottom">
+										<span class="excursions_item_time">01:00 - 20:30</span>
+										<span class="excursions_item_date">Ежедневно</span>
+										<div class="excursions_item_price">
+											<span class="excursions_item_num">300$</span>
+										</div>
+									</div>
+								</div>
+								<div class="excursions_item_photo">
+									<div class="excursions__photo">
+										<img src="wp-content/uploads/2025/10/whatsapp-image-2025-10-23-at-14.25.23.jpeg" alt="Каир индивидуально" loading="lazy">
+									</div>
+									<span class="site_btn_transparent">подробнее</span>
+								</div>
+							</a>
+							<a href="#" class="excursions_item">
+								<div class="excursions_item_info">
+									<span class="excursions_item_label">Популярное</span>
+									<h3 class="excursions_item_title">Супер Луксор (с долиной царей)</h3>
+									<div class="excursions_item_bottom">
+										<span class="excursions_item_time">04:00 - 21:00</span>
+										<span class="excursions_item_date">Пн, Вт, Чт, Пт, Сб</span>
+										<div class="excursions_item_price">
+											<span class="excursions_item_num">60$</span>
+										</div>
+									</div>
+								</div>
+								<div class="excursions_item_photo">
+									<div class="excursions__photo">
+										<img src="wp-content/uploads/2025/07/whatsapp-image-2025-10-23-at-15.48.49_3665bef0.jpg" alt="Супер Луксор" loading="lazy">
+									</div>
+									<span class="site_btn_transparent">подробнее</span>
+								</div>
+							</a>
+							<a href="#" class="excursions_item">
+								<div class="excursions_item_info">
+									<span class="excursions_item_label">VIP-клиенты</span>
+									<h3 class="excursions_item_title">Луксор индивидуально (Вип-программа) Из Хургады</h3>
+									<div class="excursions_item_bottom">
+										<span class="excursions_item_time">05:00 - 20:00</span>
+										<span class="excursions_item_date">Ежедневно</span>
+										<div class="excursions_item_price">
+											<span class="excursions_item_num">300$</span>
+										</div>
+									</div>
+								</div>
+								<div class="excursions_item_photo">
+									<div class="excursions__photo">
+										<img src="wp-content/uploads/2025/07/whatsapp-image-2025-10-23-at-15.48.52_2b621d2a.jpg" alt="Луксор индивидуально" loading="lazy">
+									</div>
+									<span class="site_btn_transparent">подробнее</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="aboutus_index m_bottom">
+			<div class="grid_container aboutus_wrapper">
+				<div class="aboutus_video_box">
+					<div class="video_item">
+						<video controls playsinline id="myVideo1">
+							<source src="wp-content/uploads/2025/07/video.mp4" type="video/mp4">
+						</video>
+						<div class="video-poster" data-video-id="myVideo1" style="background: url('wp-content/uploads/2025/07/ekscursiaaya_slide.jpg') center / cover no-repeat;"></div>
+					</div>
+					<div class="video_item">
+						<video controls playsinline id="myVideo2">
+							<source src="wp-content/uploads/2025/07/video.mp4" type="video/mp4">
+						</video>
+						<div class="video-poster" data-video-id="myVideo2" style="background: url('wp-content/uploads/2025/07/single_news.jpg') center / cover no-repeat;"></div>
+					</div>
+				</div>
+				<div class="aboutus_info">
+					<h2 class="aboutus_title">Все, что нужно знать о путешествиях, в одном месте</h2>
+					<div class="aboutus_info_text">
+				<p>demo — ваше лучшее туристическое агентство для незабываемых приключений в Хургаде и Шарм-эль-Шейхе</p>
+						<p>В Египте запрещено фотографировать и снимать на видео полицейских, военных, военные объекты и аэропорты. Запрещен ввоз квадрокоптеров. Нельзя фотографировать женщин, а любое неуважительное обращение к ним может привести к задержанию. Нарушение этих правил грозит изъятием техники и задержанием.</p>
+						<p>Расплачивайтесь египетскими фунтами, меняйте доллары (нового образца, выпущенные после 2006 года, в хорошем состоянии) по прибытии. Не пейте воду из-под крана — употребляйте только бутилированную</p>
+					</div>
+					<div class="aboutus_btn">
+						<a href="#" class="site_btn">Шарм-эль-Шейх</a>
+						<a href="#" class="site_btn">Хургада</a>
+						<a href="#" class="site_btn">Марса-Алам</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="reviews m_bottom">
+			<div class="grid_container reviews_wrapper">
+				<h2 class="index_title">Отзывы наших клиентов говорят за нас</h2>
+				<div class="reviews_slider_wrapper">
+					<div class="swiper reviews_slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide reviews_slide" data-fancybox="reviews1" data-src="#dialog-content1">
+								<span class="reviews_slide_date">22.04.2026</span>
+								<span class="reviews_slide_name">Елизавета</span>
+								<div class="reviews_slide_text">Поездка супер) как всегда всё на высоте🔥 Аквариум очень интересный, Поездка в СПА была супер, спасибо вам большое ☺️</div>
+								<div id="dialog-content1" class="vp-raw f-html" style="max-width: 500px; display: none;">
+									<p>Поездка супер) как всегда всё на высоте🔥<br>Аквариум очень интересный,</p>
+									<p>Поездка в СПА была супер, спасибо вам большое ☺️</p>
+								</div>
+							</div>
+							<div class="swiper-slide reviews_slide" data-fancybox="reviews2" data-src="#dialog-content2">
+								<span class="reviews_slide_date">23.04.2026</span>
+								<span class="reviews_slide_name">Елизавета</span>
+								<div class="reviews_slide_text">Хотела написать вам о поездке 21.04 в Каир-Старый музей, это было что-то!!! Гид был отличный, всё очень увлекательно рассказывал...</div>
+								<div id="dialog-content2" class="vp-raw f-html" style="max-width: 500px; display: none;">
+									<p>Хотела написать вам о поездке 21.04 в Каир-Старый музей, это было что-то!!!<br>Гид был отличный...</p>
+								</div>
+							</div>
+							<div class="swiper-slide reviews_slide" data-fancybox="reviews3" data-src="#dialog-content3">
+								<span class="reviews_slide_date">20.04.2026</span>
+								<span class="reviews_slide_name">Гаврилова Анна</span>
+								<div class="reviews_slide_text">Добрый день, заказывали у вас экскурсии с 7 по 14 апреля, в Каир и Белый остров, Нам очень понравилось...</div>
+								<div id="dialog-content3" class="vp-raw f-html" style="max-width: 500px; display: none;">
+									<p>Добрый день, заказывали у вас экскурсии с 7 по 14 апреля, в Каир и Белый остров, Нам очень понравилось...</p>
+								</div>
+							</div>
+							<div class="swiper-slide reviews_slide" data-fancybox="reviews4" data-src="#dialog-content4">
+								<span class="reviews_slide_date">14.04.2026</span>
+								<span class="reviews_slide_name">Наталья</span>
+								<div class="reviews_slide_text">брали спа дважды и экскурскию морскую Батискаф, выражаем искреннюю благодарность...</div>
+								<div id="dialog-content4" class="vp-raw f-html" style="max-width: 500px; display: none;">
+									<p>брали спа дважды и экскурскию морскую Батискаф... Мы рекомендуем и выражаем свою благодарность за отдых.</p>
+								</div>
+							</div>
+							<div class="swiper-slide reviews_slide" data-fancybox="reviews5" data-src="#dialog-content5">
+								<span class="reviews_slide_date">14.04.2026</span>
+								<span class="reviews_slide_name">Катерина</span>
+								<div class="reviews_slide_text">Добрый день! Хотели бы оставить отзыв по поводу экскурсии Очень сильно благодарим за нашего экскурсовода Бассама!...</div>
+								<div id="dialog-content5" class="vp-raw f-html" style="max-width: 500px; display: none;">
+									<p>Добрый день! Хотели бы оставить отзыв по поводу экскурсии</p>
+									<p>Очень сильно благодарим за нашего экскурсовода Бассама!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-prev">
+						<svg width="17" height="30" viewBox="0 0 17 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M15.116 30C15.6989 30 16.2724 29.6832 16.6409 29.0915C17.2501 28.1083 17.064 26.7313 16.2216 26.0208L4.24012 15.8648C3.93363 15.6053 3.75876 15.3105 3.75876 15.0554C3.75688 14.8002 3.93175 14.5032 4.23824 14.2415L16.231 3.97555C17.0677 3.25845 17.2501 1.88145 16.6371 0.902592C16.0279 -0.0784665 14.8508 -0.294033 14.0103 0.425263L2.01757 10.6912C0.731428 11.791 -0.00377655 13.3858 -1.71661e-05 15.0642C0.00186348 16.7425 0.744595 18.3329 2.0345 19.4261L14.016 29.5821C14.3488 29.8636 14.7343 30 15.116 30Z" fill="#969F9F" />
+						</svg>
+					</div>
+					<div class="swiper-button-next">
+						<svg width="17" height="30" viewBox="0 0 17 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.88401 30C1.30111 30 0.727613 29.6832 0.359068 29.0915C-0.250159 28.1083 -0.0640069 26.7313 0.778381 26.0208L12.7598 15.8648C13.0663 15.6053 13.2412 15.3105 13.2412 15.0554C13.2431 14.8002 13.0682 14.5032 12.7617 14.2415L0.768985 3.97555C-0.0677623 3.25845 -0.250161 1.88145 0.362827 0.902592C0.972054 -0.0784665 2.14915 -0.294033 2.98965 0.425263L14.9824 10.6912C16.2685 11.791 17.0037 13.3858 17 15.0642C16.9981 16.7425 16.2554 18.3329 14.9655 19.4261L2.98402 29.5821C2.6512 29.8636 2.26572 30 1.88401 30Z" fill="#969F9F" />
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="news_index m_bottom">
+			<div class="grid_container">
+				<h2 class="index_title">Статьи</h2>
+				<div class="news_wrapper">
+					<a href="#" class="news_item">
+						<div class="news_item_img">
+							<img src="wp-content/uploads/2025/07/slide2.jpg" alt="" loading="lazy">
+						</div>
+						<h3 class="news_item_title">Гора Моисея и монастырь Св. Екатерины</h3>
+						<p class="news_item_text">Гора Синай (гора Моисея) — известнейшая гора на синайском полуострове в Египте. Согласно Библии, на этой горе Бог явился Моисею и дал десять заповедей...</p>
+						<span class="more_btn">подробнее</span>
+					</a>
+					<a href="#" class="news_item">
+						<div class="news_item_img">
+							<img src="wp-content/uploads/2025/07/single_news.jpg" alt="" loading="lazy">
+						</div>
+						<h3 class="news_item_title">Заповедник Рас Мохаммед и Белый остров</h3>
+						<p class="news_item_text">Гора Синай (гора Моисея) — известнейшая гора на синайском полуострове в Египте. Согласно Библии, на этой горе Бог явился Моисею и дал десять заповедей...</p>
+						<span class="more_btn">подробнее</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="question m_bottom">
+			<div class="grid_container">
+				<h2 class="index_title">Вопросы, которые часто задают</h2>
+				<div id="accordion" class="questions_accordion">
+					<div class="accordion_item">
+						<h3 class="accordion_header">Почему же цена ниже?</h3>
+						<div class="accordion_body">У нас действительно одни из самых низких цен, которые можно предложить и сохранить высокое качество предоставляемых услуг. Дело в том, что мы являемся компанией онлайн-бронирования экскурсий для крупных организаторов в Египте и можем предложить очень выгодные цены за счёт большого потока туристов.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Будем ли мы лично присутствовать с вами на экскурсии?</h3>
+						<div class="accordion_body">Так как наши экскурсии не авторские, то мы лично на них не присутствуем. Но с вами всегда будет русскоговорящий гид или сопровождающий.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Какие у вас автобусы, трансфер?</h3>
+						<div class="accordion_body">В парке организаторов доступен различный транспорт, включая легковые автомобили, минивены и комфортабельные автобусы. Все автотранспортные средства оснащены кондиционерами и системами безопасности.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Как и когда оплачивать экскурсию?</h3>
+						<div class="accordion_body">Мы работаем без предоплаты. Абсолютно любые групповые экскурсии оплачиваются уже в автобусе, либо в процессе.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Есть ли у вас туристическая лицензия?</h3>
+						<div class="accordion_body">Египет — достаточная зарегулированная законами страна, особенно это касается туризма. Для того, чтобы авто или яхта выехала на экскурсию, ежедневно требуется получать на это разрешение у полиции и военных.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Включена ли страховка в стоимость экскурсии?</h3>
+						<div class="accordion_body">Покупая на родине путевку в Египет, вы также приобретаете стандартную страховку. Эта страховка действует на территории всего Египта вне зависимости от того, куда и с кем вы поедете на экскурсии.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Ваши экскурсии безопасны?</h3>
+						<div class="accordion_body">Обеспечение вашей безопасности - наша первостепенная задача. Мы строго придерживаемся всех правил и стандартов безопасности, привлекая к работе опытных сотрудников.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Зачем вам нужны копии паспортов?</h3>
+						<div class="accordion_body">Копия Вашего паспорта необходима нам для получения необходимого разрешения на поездку от местных властей. Это разрешение потребуется для обеспечения Вашей безопасности и соблюдения государственных правил во время экскурсии.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Вы заберете нас из отеля?</h3>
+						<div class="accordion_body">Мы заберем Вас у ворот Вашего отеля, у въезда в отель. Это помогает оптимизировать процесс перевозки, гарантируя, что мы сможем минимизировать время ожидания.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Что делать, если я что-то потеряю во время экскурсии?</h3>
+						<div class="accordion_body">Пожалуйста, свяжитесь с нашими сотрудниками как можно скорее, чтобы проверить, не нашли ли мы Вашу потерянную вещь.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Где найти фотографа, который фотографировал на экскурсии?</h3>
+						<div class="accordion_body">Хотели бы проинформировать вас, что фотографы, сопровождающие на экскурсиях, действуют как независимые представители своих фото-студий.</div>
+					</div>
+					<div class="accordion_item">
+						<h3 class="accordion_header">Как происходит заказ индивидуальных экскурсий и оплата?</h3>
+						<div class="accordion_body">Выбрав понравившуюся экскурсию, вы можете написать или позвонить нам в любом месенджере или оставить заявку на сайте.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="grid_container">
+		<div class="footer_top">
+			<div class="foter_info">
+				<a href="#" class="footer_logo">
+					<img src="wp-content/themes/albatros/public/images/footer_logo.svg" alt="demo">
+				</a>
+				<p class="footer_text">demo — ваше лучшее туристическое агентство для незабываемых приключений в Хургаде и Шарм-эль-Шейхе. Основанное в 2017 году.</p>
+				<div class="footer_social">
+					<a target="_blank" href="https://vk.ru/id1087492968" class="social_link">
+						<img src="wp-content/themes/albatros/public/images/vk.svg" alt="VK">
+					</a>
+					<a target="_blank" href="https://www.instagram.com/albatrosegypt6/" class="social_link">
+						<img src="wp-content/themes/albatros/public/images/ins.svg" alt="Instagram">
+					</a>
+					<a target="_blank" href="https://ok.ru/profile/910348521746" class="social_link">
+						<img src="wp-content/themes/albatros/public/images/ok.svg" alt="OK">
+					</a>
+					<a target="_blank" href="https://mail.ru/albatrosegypt6@gmail.com" class="social_link">
+						<img src="wp-content/themes/albatros/public/images/mail.svg" alt="Mail">
+					</a>
+				</div>
+				<div class="footer_masseges">
+					<a target="_blank" href="https://wa.me/201145948077" class="masseges_item">
+						<img src="wp-content/themes/albatros/public/images/wh.svg" alt="WhatsApp">
+					</a>
+					<a target="_blank" href="https://t.me/+201145948077" class="masseges_item">
+						<img src="wp-content/themes/albatros/public/images/tel.svg" alt="Telegram">
+					</a>
+					<a target="_blank" href="viber://chat?number=201145948077" class="masseges_item">
+						<img src="wp-content/themes/albatros/public/images/viber.svg" alt="Viber">
+					</a>
+				</div>
+			</div>
+			<div class="footer_contacts">
+				<span class="footer_contacts_title">Контакты</span>
+				<div class="footer_contacts_wrap">
+					<div class="footer_phone footer_item">
+						<div class="footer_icon"></div>
+						<div class="footer_phone_tel">
+							<a href="tel:+201145948077">+201145948077</a>
+							<span>Хургада.</span>
+						</div>
+						<div class="footer_phone_tel">
+							<a href="tel:+201145948077">+201145948077</a>
+							<span>Шарм-эль-Шейх.</span>
+						</div>
+					</div>
+					<div class="footer_mail footer_item">
+						<div class="footer_icon"></div>
+						<div class="footer_phone_tel">
+							<a href="mailto:albatrosegypt6@gmail.com">albatrosegypt6@gmail.com</a>
+						</div>
+					</div>
+					<div class="footer_gps footer_item">
+						<div class="footer_icon"></div>
+						<div class="footer_addres footer_phone_tel">
+							<span>Египет, Шарм-эль-Шейх, ул. Эль-Салам.</span>
+							<span>Египет, Хургада,туристический центр.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<span class="social_link">© Авторские права YM11 2025</span>
+			<a href="#" class="social_link">Политика конфиденциальности</a>
+			<a target="_blank" href="https://is-art.ru/" class="social_link is-art">
+				Разработан
+				<img src="wp-content/themes/albatros/public/images/is_art.svg" alt="is-art">
+			</a>
+		</div>
+	</footer>
+
+	<div id="modal_consultations" class="modal_consultations white-popup mfp-with-anim mfp-hide">
+		<div class="modal_calc_form_wrap">
+			<span class="calc_form_title">Связаться с нами</span>
+			<form action="javascript:void(0)" id="alxModalForm">
+				<input type="hidden" name="link" value="/">
+				<input type="text" name="name" required placeholder="Имя">
+				<input type="tel" name="phone" placeholder="Телефон*" style="border-radius: 0 5px 5px 0;" inputmode="numeric" pattern="^\+?[0-9]{6,15}$" oninput="this.value = this.value.replace(/[^0-9+]/g, '').replace(/(?!^)\+/g, '');" required>
+				<label class="control control-checkbox">
+					Нажимая кнопку, вы даете согласие на обработку персональных данных, в соответствии с политикой конфиденциальности
+					<input type="checkbox" required />
+					<div class="control_indicator"></div>
+				</label>
+				<label class="control control-checkbox">
+					Согласие на получение рекламных предложений по телефону и email
+					<input type="checkbox" />
+					<div class="control_indicator"></div>
+				</label>
+				<button type="submit" class="site_btn">Отправить</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="overlay"></div>
+	<div class="alModal alModalThank js_modal-3 thank_modal">
+		<span class="alModalClose js_alModalClose"></span>
+		<div class="alModalContent">
+			<div class="thank_icon">
+				<img src="wp-content/themes/albatros/public/images/logotip.svg" alt="demo">
+			</div>
+			<br>
+			<div class="thank_text">Мы благодарим Вас за интерес и рассмотрим Вашу заявку.</div>
+			<br>
+		</div>
+	</div>
+
+	<div class="cookies_box" id="cookiesBox" onclick="">
+		<div class="cookies_close" id="cookies_close" onclick="document.getElementById('cookiesBox').style.display='none';">
+			<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M11.7038 0.305268C11.62 0.221338 11.5205 0.15475 11.411 0.109318C11.3015 0.0638856 11.1841 0.0404999 11.0655 0.0404999C10.9469 0.0404999 10.8295 0.0638856 10.72 0.109318C10.6105 0.15475 10.511 0.221338 10.4272 0.305268L6 4.72344L1.57278 0.296214C1.48896 0.212394 1.38945 0.145904 1.27993 0.100541C1.17041 0.0551777 1.05304 0.0318298 0.934495 0.0318298C0.815956 0.0318298 0.698576 0.0551777 0.58906 0.100541C0.479544 0.145904 0.380034 0.212394 0.296214 0.296214C0.212394 0.380034 0.145904 0.479544 0.100541 0.58906C0.0551777 0.698576 0.0318298 0.815956 0.0318298 0.934495C0.0318298 1.05304 0.0551777 1.17041 0.100541 1.27993C0.145904 1.38945 0.212394 1.48896 0.296214 1.57278L4.72344 6L0.296214 10.4272C0.212394 10.511 0.145904 10.6106 0.100541 10.7201C0.0551777 10.8296 0.0318298 10.947 0.0318298 11.0655C0.0318298 11.184 0.0551777 11.3014 0.100541 11.4109C0.145904 11.5205 0.212394 11.62 0.296214 11.7038C0.380034 11.7876 0.479544 11.8541 0.58906 11.8995C0.698576 11.9448 0.815956 11.9682 0.934495 11.9682C1.05304 11.9682 1.17041 11.9448 1.27993 11.8995C1.38945 11.8541 1.48896 11.7876 1.57278 11.7038L6 7.27656L10.4272 11.7038C10.511 11.7876 10.6106 11.8541 10.7201 11.8995C10.8296 11.9448 10.947 11.9682 11.0655 11.9682C11.184 11.9682 11.3014 11.9448 11.4109 11.8995C11.5205 11.8541 11.62 11.7876 11.7038 11.7038C11.7876 11.62 11.8541 11.5205 11.8995 11.4109C11.9448 11.3014 11.9682 11.184 11.9682 11.0655C11.9682 10.947 11.9448 10.8296 11.8995 10.7201C11.8541 10.6106 11.7876 10.511 11.7038 10.4272L7.27656 6L11.7038 1.57278C12.0478 1.22874 12.0478 0.649306 11.7038 0.305268Z" fill="#3c7d9b" />
+			</svg>
+		</div>
+		<div class="cookies_box_text">
+			<span class="cookies_title">Cookies</span>
+			<p>Мы обрабатываем Cookies с целью персонализации сервисов и для того, чтобы пользоваться сайтом было удобнее.<br><br>Вы можете запретить обработку Cookies в настройках браузера. Пожалуйста, ознакомьтесь с согласием на обработку Cookies.</p>
+		</div>
+		<button id="acceptCookies" type="button" class="site_btn">Принять</button>
+	</div>
+
+	<script id="jquery_3_5-js" src="wp-content/themes/albatros/public/js/jquery/jquery-3.5.0.min.js"></script>
+	<script id="dynamicAdapt-js" src="wp-content/themes/albatros/public/js/dynamicAdapt.js"></script>
+	<script id="fancybox-js" src="wp-content/themes/albatros/public/js/jquery.fancybox.min.js"></script>
+	<script id="magnific-js" src="wp-content/themes/albatros/public/js/jquery.magnific-popup.min.js"></script>
+	<script id="inputmask-js" src="wp-content/themes/albatros/public/js/jquery.inputmask.bundle.min.js"></script>
+	<script id="jquery-ui-js" src="wp-content/themes/albatros/public/js/jquery-ui.min.js"></script>
+	<script id="swiper_js-js" src="wp-content/themes/albatros/public/js/swiper-bundle.min.js"></script>
+	<script id="user-js" src="wp-content/themes/albatros/public/js/user.js"></script>
+	<script id="tabs-js" src="wp-content/themes/albatros/public/js/tabs.js"></script>
+	<script id="video_play-js" src="wp-content/themes/albatros/public/js/video_play.js"></script>
+	<script id="header-js" src="wp-content/themes/albatros/public/js/header.js"></script>
+	<script id="cookies-js" src="wp-content/themes/albatros/public/js/cookies.js"></script>
+</body>
+</html>
